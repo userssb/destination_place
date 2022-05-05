@@ -1,0 +1,36 @@
+.bg-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-icon {
+  height: 30px;
+  width: 30px;
+}
+.search-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+.images-cont {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin-top: 48px;
+  height: 60vh;
+  width: 80%;
+}
+@media screen and (min-width: 768px) {
+  .images-cont {
+    justify-content: flex-start;
+  }
+}
